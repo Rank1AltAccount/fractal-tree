@@ -4,9 +4,9 @@ A visualization of a recursive fractal tree algorithm using the SDL2 library.
 ![](https://i.imgur.com/p5udT3f.png)
 
 ## Usage
-- Windows
+- Windows\
 Download the archive in releases, unpack it and make sure SDL2.dll stays within the same folder as the .exe.
-- Linux 
+- Linux\
 Run the .exe with Wine.
 
 The algorithm's values can be controlled using the arrow keys on the keyboard.
