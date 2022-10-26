@@ -27,8 +27,7 @@ public:
 
 	// Cool startup animation
 	void initAnimation() {
-		// Store the initial value
-		int iBranchLength = branchLength;
+		int iBranchLength = branchLength; // Store the initial value
  
 		for (branchLength = 0; branchLength < iBranchLength; branchLength++) {
 			renderFrame(); 
