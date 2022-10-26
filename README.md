@@ -5,7 +5,7 @@ A visualization of a recursive fractal tree algorithm using the SDL2 library.
 
 ## Usage
 - Windows\
-Download the archive in releases, unpack it and make sure SDL2.dll stays within the same folder as the .exe.
+Download Fractal_Tree.zip in releases, unpack it and make sure SDL2.dll stays visible to the .exe.
 - Linux\
 Run the .exe with Wine.
 
