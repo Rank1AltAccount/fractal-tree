@@ -21,7 +21,7 @@ The algorithm's values can be controlled using the arrow keys on the keyboard.
 
 ## Building
 Compile for x86 including and linking the files specified in Dependencies.
-- Windows 
+- Windows\
 You can use the provided Visual Studio solution.
-- Linux
+- Linux\
 You will have to download the Linux version of SDL2 to be able to compile the project.
