@@ -111,23 +111,23 @@ public:
 		}
 	}
  
-    void run() {
+	void run() {
 		init();
 		initAnimation();
 		eventLoop();
-    }
+	}
 
-    Application(int wWidth, int wHeight) { 
+	Application(int wWidth, int wHeight) { 
 		windowWidth = wWidth;
 		windowHeight = wHeight;
-    }
+	}
 
 private:
-    int windowWidth;
-    int windowHeight; 
+	int windowWidth;
+	int windowHeight; 
 
-    SDL_Window* window;
-    SDL_Renderer* renderer;
+	SDL_Window* window;
+	SDL_Renderer* renderer;
 
 	SDL_Event event; 
  
@@ -143,5 +143,5 @@ int main(int argc, char* argv[]) {
 	Application app(800, 600);
 	app.run();
 
-    return 0;
+	return 0;
 }
